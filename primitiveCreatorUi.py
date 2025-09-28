@@ -37,8 +37,8 @@ class PrimitiveCreatorDialog(QtWidgets.QDialog):
 
         self.button_layout = QtWidgets.QHBoxLayout()
         self.main_layout.addLayout(self.button_layout)
-        self.create_button = QtWidgets.QPushButton('Create')
-        self.cancel_button= QtWidgets.QPushButton('Cancel')
+        self.create_button = QtWidgets.QPushButton('🐲Create')
+        self.cancel_button= QtWidgets.QPushButton('❌Cancel')
         self.button_layout.addStretch()
 
         self.button_layout.addWidget(self.create_button)
