@@ -62,6 +62,16 @@ class PrimitiveCreatorDialog(QtWidgets.QDialog):
             item.setIcon(QtGui.QIcon(os.path.join(ICON_PATH, f'{prim}.png')))
             self.primitive_listWidget.addItem(item)
 
+<<<<<<< HEAD
+=======
+    def createObject(self):
+        current_item = self.object_listWidget.currentItem()
+        if not current_item:
+            QtWidgets.QMessageBox.warning(self, "Warning", "Please select an object.")
+            return
+        objectCreatorUtil.create_primitive(current_item.text())
+
+>>>>>>> a904f29 (init repo)
 def run():
     global ui
 
