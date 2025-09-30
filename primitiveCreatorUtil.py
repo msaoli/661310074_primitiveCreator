@@ -13,5 +13,5 @@ def create_primitive(prim_type):
         cmds.polyCylinder()
     else:
         cmds.warning(f"Unknown primitive type: {prim_type}")
->>>>>>> a904f29 (init repo)
+
 
